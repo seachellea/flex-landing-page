@@ -24,6 +24,10 @@ html {
     padding: 0;
     margin: 0;
 }
+body {
+    display: flex;
+    flex-direction: column;
+}
 
 /* ============ HEADER ============ */
 
@@ -78,7 +82,7 @@ a {
 
 .hero-section {
     color: #fff;
-    padding: 12.5rem 17rem 12.5rem 11.375rem;
+    padding: 16.75rem 17rem 16.75rem 11.375rem;
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -89,16 +93,23 @@ a {
 
 .hero-main {
     font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 2px #000;
     font-size: 7rem;
 }
 
 .hero-sub {
+    text-shadow: 2px 2px 2px #000;
     font-family: 'Lato', sans-serif;
     font-size: 1.9rem;
 }
 
 /* ============ MAIN CONTENT - TOURIST SPOTS ============ */
 
+.main-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
 .tourist-section {
     background-color: var(--main-bg);
     font-family: 'Montserrat', sans-serif;
@@ -168,6 +179,54 @@ a {
     text-align: center;
 }
 
+/* ============ MAIN CONTENT - WRITEUP ============ */
 
+.writeup {
+    background-image: url(img/bg-two.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0, 0.4);
+    min-height: 847px;
 
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+
+    padding: 9.688rem 10.625rem;
+}
+
+.writeup-container {
+    background-color: rgba(2,25,30, 0.7);
+    max-width: 68.813rem;
+    margin: 0 auto;
+    padding: 6.125rem 4.875rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    text-align: center;
+    line-height: 150%;
+}
+
+.writeup-header,
+.writeup-end,
+.writeup-body {
+    font-style: italic;
+    text-shadow: 2px 2px 2px #000; 
+}
+
+.writeup-header {
+    font-weight: 800;
+}
+
+.writeup-end {
+    padding: 0 9.375rem;
+}
+
+.writeup-body {
+    font-style: normal;
+    text-shadow: 2px 2px 2px #000;
+}
 
