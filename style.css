@@ -13,6 +13,8 @@ font-family: 'Montserrat', sans-serif; */
     --text-yellow: rgb(233,248,58);
 }
 
+/* ============ CSS RESETS ============ */
+
 html {
     font: 100%;
 }
@@ -22,6 +24,8 @@ html {
     padding: 0;
     margin: 0;
 }
+
+/* ============ HEADER ============ */
 
 .header {
     width: 100%;
@@ -59,15 +63,15 @@ a {
     padding: 49px 129px 0 149px;
 }
 
-#span-more {
+.span-red {
     color: var(--text-red);
 }
 
-#span-fun {
+.span-blue {
     color: var(--text-blue);
 }
 
-#span-ph {
+.span-yellow {
     color: var(--text-yellow);
 }
 
@@ -90,6 +94,56 @@ a {
 .hero-sub {
     font-family: 'Lato', sans-serif;
     font-size: 1.9rem;
+}
+
+/* ============ MAIN CONTENT - TOURIST SPOTS ============ */
+
+.tourist-section {
+    background-color: var(--main-bg);
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+#subheader {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+
+#heading, .tourist-spot {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.tourist-header {
+    text-align: center;
+    margin: 143px 0 61px 0;
+}
+
+.tourist-img {
+    max-width: auto;
+    max-height: 228.661px;
+    transform: translateX(-20%);
+}
+
+.tourist-img.img-siargao {
+    transform: translateX(-10%);
+}
+
+.tourist-img.img-hills {
+    transform: translateX(-12%);
+}
+
+.img-cont {
+    max-width: 240px;
+    max-height: 228.661px;
+    overflow: hidden;
+    border-radius: 7px;
+    border: 2px solid var(--White, #FFF);
+    background-repeat: no-repeat;
 }
 
 
