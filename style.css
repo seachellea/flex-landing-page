@@ -230,3 +230,47 @@ a {
     text-shadow: 2px 2px 2px #000;
 }
 
+/* ============ MAIN CONTENT - SIGN UP ============ */
+
+.sign-up {
+    background-color: var(--main-bg);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 7rem;
+}
+
+.sign-up-cont {
+    background-color: var(--button-bg);
+    max-width: 1216px;
+    flex-shrink: 0;
+    display: flex;
+    padding: 3rem 4.5rem;
+    border-radius: 10px;
+    gap: 7.125rem;
+}
+
+.sign-up-text {
+    line-height: 190%; /* 34.1px */
+}
+
+.sign-up-header {
+    font-size: 1.563rem;
+    font-weight: 700;
+}
+
+.sign-up-sub {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.sign-up-btn {
+    font: inherit;
+    padding: 1.25rem 2.188rem;
+    border-radius: 10px;
+    background: none;
+    outline: none;
+    border: 2px solid #fff;
+    color: #fff;
+}
