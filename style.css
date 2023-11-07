@@ -361,7 +361,7 @@ a {
         cursor: pointer;
         padding-top: 1rem;
         position: absolute;
-        top: 27px;
+        top: 28px;
         right: 30px;
     }
 
@@ -376,7 +376,7 @@ a {
     /* ============== HAMBURGER MENU ============== */
 
     .favicon {
-        max-width: 20px;
+        max-width: 25px;
     }
 
     .header, .footer {
