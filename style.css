@@ -53,11 +53,11 @@ a {
     color: #fff;
 }
 
-.nav-links {
+.menu {
     list-style-type: none;
     font-family: 'Lato', sans-serif;
     display: flex;
-    justify-content: flex-end;
+    margin-left: 37rem;
     font-weight: bold;
     gap: 25px;
 }
@@ -66,8 +66,10 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 3.063rem 8.063rem 0 9.313rem;
+    padding: 3.063rem 0 0 9.313rem;
 }
+
+
 
 .span-red {
     color: var(--text-red);
@@ -300,260 +302,78 @@ a {
     padding: 114px 448px;
 }
 
-@media (min-width: 575px) and (max-width: 724px) {
-    /* Styles for small devices (tablets) */
-    .nav {
-        padding: 3.1rem 2rem;
-    }
-
-    .header, .footer {
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-
-    .main-content {
-        padding: 0;
-        margin: 0;
-    }
-
-    .hero-section {
-        padding: 5rem 8rem 10rem 3rem;
-    }
-    
-    .hero-main {
-        font-size: 4rem;
-    }
-    
-    .hero-sub {
-        font-size: 1.4rem;
-    }
-
-    .tourist-header {
-        text-align: center;
-        margin: 5rem 2.3rem;
-    }
-
-    #subheader {
-        font-size: 1.4rem;
-    }
-    
-    #heading {
-        font-weight: 700;
-        font-size: 2.7rem;
-    }
-
-    .img-cont {
-        max-width: 200px;
-        max-height: 180px;
-    }
-    
-    .tourist-spot {
-        font-weight: 700;
-        font-size: 1.26rem;
-        margin: 0.7rem 0 0.313rem 0;
-    }
-    
-    .tourist-content {
-        margin-bottom: 8rem;
-    }
-    
-    .tourist-loc {
-        font-size: 0.9rem;
-    }
-
-    .writeup {
-        font-size: 1.2rem;
-        padding: 7rem 3rem;
-    }
-    
-    .writeup-container {
-        max-width: 75rem;
-        padding: 3rem;
-        line-height: 150%;
-    }
-
-    .writeup-end {
-        padding: 0;
-    }
-
-    .sign-up {
-        padding: 3rem;
-    }
-    
-    .sign-up-cont {
-        max-width: 75rem;
-        padding: 2rem;
-        border-radius: 10px;
-        gap: 1.5rem;
-        align-items: center;
-    }
-    
-    .sign-up-text {
-        line-height: 1.5;
-    }
-    
-    .sign-up-header {
-        font-size: 0.8em;
-        font-weight: 700;
-    }
-    
-    .sign-up-sub {
-        font-size: 0.6rem;
-        font-weight: 400;
-    }
-    
-    .sign-up-btn {
-        padding: 0.9rem 1.5rem;
-        font-size: 0.8rem;
-    }
-
-    .footer-attribution {
-        padding: 3rem;
-    }
-}
-
-@media (min-width: 725px) and (max-width: 1137px) {
-    .nav {
-        padding: 3.1rem 2rem;
-    }
-
-    .header, .footer {
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-
-    .main-content {
-        padding: 0;
-        margin: 0;
-    }
-
-    .hero-section {
-        padding: 5rem 8rem 10rem 3rem;
-    }
-    
-    .hero-main {
-        font-size: 4rem;
-    }
-    
-    .hero-sub {
-        font-size: 1.4rem;
-    }
-
-    .tourist-header {
-        text-align: center;
-        margin: 5rem 2.3rem;
-    }
-
-    #subheader {
-        font-size: 1.4rem;
-    }
-    
-    #heading {
-        font-weight: 700;
-        font-size: 3rem;
-    }
-
-    .img-cont {
-        max-width: 200px;
-        max-height: 180px;
-    }
-    
-    .tourist-section {
-        display: flex;
-        justify-content: center;
-    }
-
-    .tourist-spot {
-        font-weight: 700;
-        font-size: 1.26rem;
-        margin: 0.7rem 0 0.313rem 0;
-    }
-    
-    .tourist-content {
-        margin-bottom: 8rem;
-        margin: 0 3rem 8rem 3rem;
-    }
-    
-    .tourist-loc {
-        font-size: 0.9rem;
-    }
-
-    .writeup {
-        font-size: 1.2rem;
-        padding: 7rem 3rem;
-    }
-    
-    .writeup-container {
-        max-width: 75rem;
-        padding: 3rem;
-        line-height: 150%;
-    }
-
-    .writeup-end {
-        padding: 0;
-    }
-
-    .sign-up {
-        padding: 3rem;
-    }
-    
-    .sign-up-cont {
-        max-width: 90rem;
-        flex-shrink: 0;
-        padding: 2rem;
-        border-radius: 10px;
-        gap: 1.5rem;
-        align-items: center;
-    }
-    
-    .sign-up-text {
-        line-height: 1.5;
-    }
-    
-    .sign-up-header {
-        font-size: 1em;
-        font-weight: 700;
-    }
-    
-    .sign-up-sub {
-        font-size: 0.9rem;
-        font-weight: 400;
-    }
-    
-    .sign-up-btn {
-        padding: 0.9rem 1.5rem;
-        font-size: 0.8rem;
-    }
-
-    .footer-attribution {
-        color: #fff;
-        text-align: center;
-        text-shadow: 2px 2px 2px #000;
-        
-        font-size: 1rem;
-        font-style: italic;
-        font-weight: 500;
-        padding: 3rem;
-    }
-}
-
 @media (max-width: 425px) {
     /* Styles for extra small devices */
 
+    /* body {
+        overflow-x: hidden !important;
+    }
+    
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
     .main-content {
         padding: 0;
         margin: 0;
-    }
+    } */
     
     .nav {
         padding: 3.1rem 2rem;
     }
-
-    .nav-links {
+    
+    /* ============== HAMBURGER MENU ============== */
+    .menu {
         font-size: 0.8rem;
+        position: absolute;
+        top: 0;
+        /* right: -50%;
+        transition: right 0.4s; */
+        display: none;
     }
+    
+    .menu.show {
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 0 5.3rem 0 3rem;
+        padding-top: 3rem;
+        height: 100%;
+    }
+    
+    .menu.menu.show {
+        display: block;
+    }
+    
+    .menu li {
+        margin-bottom: 20px;
+    }
+    
+    .menu a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        padding-top: 1rem;
+        position: absolute;
+        top: 27px;
+        right: 30px;
+    }
+
+    .bar {
+        width: 30px;
+        height: 3px;
+        background-color: #fff;
+        margin: 3px 0;
+        transition: transform 0.4s, opacity 0.4s;
+    }
+
+    /* ============== HAMBURGER MENU ============== */
 
     .favicon {
         max-width: 20px;
@@ -561,13 +381,8 @@ a {
 
     .header, .footer {
         background-size: cover;
-        background-position: center;
+        background-position: center center;
         background-repeat: no-repeat;
-    }
-
-    .main-content {
-        padding: 0;
-        margin: 0;
     }
 
     .hero-section {
@@ -622,7 +437,7 @@ a {
     }
     
     .writeup-container {
-        max-width: 75rem;
+        max-width: 100%;
         padding: 3rem;
         line-height: 150%;
     }
@@ -636,9 +451,9 @@ a {
     }
     
     .sign-up-cont {
+        /* max-width: 100%; */
         margin: 0;
-        padding: 1rem 1rem;
-        max-width: 30rem;
+        padding: 1rem;
         border-radius: 10px;
         gap: 1.5rem;
         align-items: center;
@@ -668,4 +483,3 @@ a {
         padding: 3rem;
     }
 }
-
