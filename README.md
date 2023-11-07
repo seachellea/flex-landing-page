@@ -1,5 +1,9 @@
 # Flex Landing Page
 Landing Page project using only flexbox for the layout
 
-Note:
-- Not yet mobile responsive (will add in the future)
+### Improvements to be added in the future:
+- Refine mobile responsiveness 
+- Responsiveness on other devices (tablets, etc.)
+- Active and hover states
+- Back to top button
+- Navigation animation
