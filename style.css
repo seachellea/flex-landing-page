@@ -411,7 +411,6 @@ a {
     .footer-attribution {
         padding: 3rem;
     }
-
 }
 
 @media (min-width: 725px) and (max-width: 1137px) {
@@ -542,9 +541,131 @@ a {
 
 @media (max-width: 425px) {
     /* Styles for extra small devices */
+
+    .main-content {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .nav {
+        padding: 3.1rem 2rem;
+    }
+
+    .nav-links {
+        font-size: 0.8rem;
+    }
+
+    .favicon {
+        max-width: 20px;
+    }
+
     .header, .footer {
         background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
-    /*hamburger menu*/
+
+    .main-content {
+        padding: 0;
+        margin: 0;
+    }
+
+    .hero-section {
+        padding: 5rem 8rem 10rem 5rem;
+    }
+    
+    .hero-main {
+        font-size: 3rem;
+    }
+    
+    .hero-sub {
+        font-size: 1rem;
+    }
+
+    .tourist-header {
+        text-align: center;
+        margin: 5rem 2.3rem 3rem 3rem;
+    }
+
+    #subheader {
+        font-size: 1rem;
+    }
+    
+    #heading {
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    .img-cont {
+        max-width: 200px;
+        max-height: 180px;
+    }
+    
+    .tourist-spot {
+        font-weight: 700;
+        font-size: 1.26rem;
+        margin: 0.7rem 0 0.313rem 0;
+    }
+    
+    .tourist-content {
+        margin-bottom: 8rem;
+    }
+    
+    .tourist-loc {
+        font-size: 0.9rem;
+    }
+
+    .writeup {
+        font-size: 1rem;
+        padding: 7rem 1.5rem;
+        margin: 0;
+    }
+    
+    .writeup-container {
+        max-width: 75rem;
+        padding: 3rem;
+        line-height: 150%;
+    }
+
+    .writeup-end {
+        padding: 0;
+    }
+
+    .sign-up {
+        padding: 3rem;
+    }
+    
+    .sign-up-cont {
+        margin: 0;
+        padding: 1rem 1rem;
+        max-width: 30rem;
+        border-radius: 10px;
+        gap: 1.5rem;
+        align-items: center;
+    }
+    
+    .sign-up-text {
+        line-height: 1.5;
+    }
+    
+    .sign-up-header {
+        font-size: 0.6rem;
+        font-weight: 700;
+    }
+    
+    .sign-up-sub {
+        font-size: 0.5rem;
+        font-weight: 400;
+    }
+    
+    .sign-up-btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.5rem;
+    }
+
+    .footer-attribution {
+        font-size: 1rem;
+        padding: 3rem;
+    }
 }
 
